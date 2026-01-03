@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #222;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 24px;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+/* Article Card */
+.article-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.article-title {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.article-abstract {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.article-meta {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Loader */
+.loader {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 40px;
+}
+
+/* Error */
+.error {
+  color: #d93025;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 30px;
+}
