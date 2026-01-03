@@ -124,3 +124,9 @@ Styles (Highlights)
  . Pagination buttons styled and disabled state handled.
 
 
+How to run web application :
+    1. Setup Node (v20.19.5)
+    2. npm install (install node modules)
+    3. npm run build (create the build for put the env variables)
+    4. npm start (start the application)
+
